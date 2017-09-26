@@ -18,7 +18,7 @@ public class Yytoken {
 	public static final int TYPE_EOF=-1;//end of file
 	
 	private int type=0;
-	private final Object value=null;
+	private Object value=null;
 	
 	public Yytoken(int type,Object value){
 		this.type=type;
